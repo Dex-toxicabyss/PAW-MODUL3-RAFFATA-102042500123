@@ -1,0 +1,15 @@
+# Abaikan folder dependensi & environment lokal di seluruh sub-project
+**/vendor/
+**/node_modules/
+**/.env
+**/.env.backup
+**/.env.production
+**/.phpunit.result.cache
+**/storage/*.key
+**/storage/logs/*.log
+**/public/hot
+**/public/storage
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
